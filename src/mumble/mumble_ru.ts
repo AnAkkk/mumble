@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ru">
+<TS language="ru" version="2.1">
 <context>
     <name>ACLEditor</name>
     <message>
@@ -598,6 +598,10 @@ This value allows you to set the maximum number of users allowed in the channel.
         <translation>О Mumble</translation>
     </message>
     <message>
+        <source>&lt;h3&gt;Mumble (%1)&lt;/h3&gt;&lt;p&gt;%3&lt;/p&gt;&lt;p&gt;&lt;b&gt;A voice-chat utility for gamers&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;tt&gt;&lt;a href=&quot;%2&quot;&gt;%2&lt;/a&gt;&lt;/tt&gt;&lt;/p&gt;</source>
+        <translation>&lt;h3&gt;Mumble (%1)&lt;/h3&gt;&lt;p&gt;%3&lt;/p&gt;&lt;p&gt;&lt;b&gt;Голосовая связь для игроков&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;tt&gt;&lt;a href=&quot;%2&quot;&gt;%2&lt;/a&gt;&lt;/tt&gt;&lt;/p&gt;</translation>
+    </message>
+    <message>
         <source>&amp;About Mumble</source>
         <translation>&amp;О Mumble</translation>
     </message>
@@ -628,10 +632,6 @@ This value allows you to set the maximum number of users allowed in the channel.
     <message>
         <source>Third-party license agreements</source>
         <translation>Сторонние лицензии</translation>
-    </message>
-    <message>
-        <source>&lt;h3&gt;Mumble (%1)&lt;/h3&gt;&lt;p&gt;%3&lt;/p&gt;&lt;p&gt;&lt;b&gt;An Open Source, low-latency, high quality voice-chat utility&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;tt&gt;&lt;a href=&quot;%2&quot;&gt;%2&lt;/a&gt;&lt;/tt&gt;&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1129,11 +1129,11 @@ This value allows you to set the maximum number of users allowed in the channel.
     </message>
     <message>
         <source>Access to the microphone was denied. Please check that your operating system&apos;s microphone settings allow Mumble to use the microphone.</source>
-        <translation type="unfinished">Доступ к микрофону был запрещён. Проверьте настройки микрофона в системе, чтобы Mumble смог получить доступ к нему.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Disabled</source>
-        <translation type="unfinished">Выключено</translation>
+        <translation>Отключено</translation>
     </message>
     <message>
         <source>Disable echo cancellation.</source>
@@ -2036,7 +2036,7 @@ Speak loudly, as when you are annoyed or excited. Decrease the volume in the sou
     </message>
     <message>
         <source>No buttons assigned</source>
-        <translation type="unfinished"></translation>
+        <translation>Кнопки не назначены</translation>
     </message>
 </context>
 <context>
@@ -2174,6 +2174,7 @@ Speak loudly, as when you are annoyed or excited. Decrease the volume in the sou
         <translation>
             <numerusform>Бан-лист - %n бан</numerusform>
             <numerusform>Бан-лист - %n бана</numerusform>
+            <numerusform>Бан-лист - %n банов</numerusform>
             <numerusform>Бан-лист - %n банов</numerusform>
         </translation>
     </message>
@@ -2837,8 +2838,60 @@ Are you sure you wish to replace your certificate?
         <translation>Введите имя пользователя</translation>
     </message>
     <message>
+        <source>Adding host %1</source>
+        <translation>Добавление хоста %1</translation>
+    </message>
+    <message>
         <source>Servername</source>
         <translation>Название сервера</translation>
+    </message>
+    <message>
+        <source>Hostname</source>
+        <translation>Адрес</translation>
+    </message>
+    <message>
+        <source>Bonjour name</source>
+        <translation>Имя Bonjour</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Порт</translation>
+    </message>
+    <message>
+        <source>Addresses</source>
+        <translation>IP-адрес</translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation>Веб-сайт</translation>
+    </message>
+    <message>
+        <source>Packet loss</source>
+        <translation>Потеря пакетов</translation>
+    </message>
+    <message>
+        <source>Ping (80%)</source>
+        <translation>Пинг (80%)</translation>
+    </message>
+    <message>
+        <source>%1 ms</source>
+        <translation>%1 мс</translation>
+    </message>
+    <message>
+        <source>Ping (95%)</source>
+        <translation>Пинг (95%)</translation>
+    </message>
+    <message>
+        <source>Bandwidth</source>
+        <translation>Канал</translation>
+    </message>
+    <message>
+        <source>%1 kbit/s</source>
+        <translation>%1 кбит/с</translation>
+    </message>
+    <message>
+        <source>&amp;Connect</source>
+        <translation>&amp;Подключиться</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -2847,6 +2900,10 @@ Are you sure you wish to replace your certificate?
     <message>
         <source>Users</source>
         <translation>Пользователей</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Версия</translation>
     </message>
     <message>
         <source>Failed to fetch server list</source>
@@ -2963,10 +3020,6 @@ Are you sure you wish to replace your certificate?
     <message>
         <source>&lt;p&gt;To measure the latency (ping) of public servers and determine the number of active users, your IP address must be transmitted to each public server.&lt;/p&gt;&lt;p&gt;Do you consent to the transmission of your IP address? If you answer no, the public server list will be deactivated. However, you can reactivate it at any time in the network settings.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Для измерения задержки (пинга) до публичных серверов и определения количества активных пользователей, ваш IP адрес должен быть передан каждому публичному серверу.&lt;/p&gt;&lt;p&gt;Согласны ли вы на передачу своего IP адреса? Если вы ответите &quot;нет&quot;, список публичных серверов будет деактивирован. Вы всегда можете включить его в настройках сети.&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <source>C&amp;onnect</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3309,7 +3362,7 @@ Without this option enabled, using Mumble&apos;s global shortcuts in privileged 
     </message>
     <message>
         <source>Add</source>
-        <translation type="unfinished">Добавить</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Remove the currently selected items</source>
@@ -3317,7 +3370,7 @@ Without this option enabled, using Mumble&apos;s global shortcuts in privileged 
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished">Удалить</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3352,7 +3405,7 @@ Without this option enabled, using Mumble&apos;s global shortcuts in privileged 
     <name>GlobalShortcutEngine</name>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">Неизвестно</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7256,7 +7309,7 @@ See &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;th
     </message>
     <message>
         <source>Default Device</source>
-        <translation type="unfinished">Устройство по умолчанию</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>This option works best when using built-in microphone and speaker.</source>
@@ -7276,7 +7329,7 @@ See &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;th
     </message>
     <message>
         <source>Disabled</source>
-        <translation type="unfinished">Выключено</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Echo cancellation is disabled.</source>
@@ -7300,74 +7353,6 @@ See &lt;a href=&quot;https://wiki.mumble.info/wiki/Installing_Mumble&quot;&gt;th
     </message>
     <message>
         <source>Acoustic echo cancellation provided by Apple.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Adding host %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enter username</source>
-        <translation type="unfinished">Введите имя пользователя</translation>
-    </message>
-    <message>
-        <source>Servername</source>
-        <translation type="unfinished">Название сервера</translation>
-    </message>
-    <message>
-        <source>Hostname</source>
-        <translation type="unfinished">Адрес</translation>
-    </message>
-    <message>
-        <source>Bonjour name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Port</source>
-        <translation type="unfinished">Порт</translation>
-    </message>
-    <message>
-        <source>Addresses</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Website</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Packet loss</source>
-        <translation type="unfinished">Потеря пакетов</translation>
-    </message>
-    <message>
-        <source>Ping (80%)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>%1 ms</source>
-        <translation type="unfinished">%1 мс</translation>
-    </message>
-    <message>
-        <source>Ping (95%)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Bandwidth</source>
-        <translation type="unfinished">Канал</translation>
-    </message>
-    <message>
-        <source>%1 kbit/s</source>
-        <translation type="unfinished">%1 кбит/с</translation>
-    </message>
-    <message>
-        <source>Users</source>
-        <translation type="unfinished">Пользователей</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation type="unfinished">Версия</translation>
-    </message>
-    <message>
-        <source>The provided URL uses an invalid version format: &quot;%1&quot;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7713,6 +7698,7 @@ An access token is a text string, which can be used as a password for very simpl
         <translation>
             <numerusform>Зарегистрировано: %n пользователь</numerusform>
             <numerusform>Зарегистрировано: %n пользователя</numerusform>
+            <numerusform>Зарегистрировано: %n пользователей</numerusform>
             <numerusform>Зарегистрировано: %n пользователей</numerusform>
         </translation>
     </message>
