@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de">
+<TS language="de" version="2.1">
 <context>
     <name>ACLEditor</name>
     <message>
@@ -604,6 +604,10 @@ Zum Beispiel wäre für die Audigy 2 ZS &apos;&lt;i&gt;Mic L&lt;/i&gt;&apos; ein
         <translation>Über Mumble</translation>
     </message>
     <message>
+        <source>&lt;h3&gt;Mumble (%1)&lt;/h3&gt;&lt;p&gt;%3&lt;/p&gt;&lt;p&gt;&lt;b&gt;A voice-chat utility for gamers&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;tt&gt;&lt;a href=&quot;%2&quot;&gt;%2&lt;/a&gt;&lt;/tt&gt;&lt;/p&gt;</source>
+        <translation>&lt;h3&gt;Mumble (%1)&lt;/h3&gt;&lt;p&gt;%3&lt;/p&gt;&lt;p&gt;&lt;b&gt;Ein Sprachchatprogramm für Spieler&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;tt&gt;&lt;a href=&quot;%2&quot;&gt;%2&lt;/a&gt;&lt;/tt&gt;&lt;/p&gt;</translation>
+    </message>
+    <message>
         <source>&amp;About Mumble</source>
         <translation>Ü&amp;ber Mumble</translation>
     </message>
@@ -634,10 +638,6 @@ Zum Beispiel wäre für die Audigy 2 ZS &apos;&lt;i&gt;Mic L&lt;/i&gt;&apos; ein
     <message>
         <source>Third-party license agreements</source>
         <translation>Drittanbieter-Lizenzverträge</translation>
-    </message>
-    <message>
-        <source>&lt;h3&gt;Mumble (%1)&lt;/h3&gt;&lt;p&gt;%3&lt;/p&gt;&lt;p&gt;&lt;b&gt;An Open Source, low-latency, high quality voice-chat utility&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;tt&gt;&lt;a href=&quot;%2&quot;&gt;%2&lt;/a&gt;&lt;/tt&gt;&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1135,11 +1135,11 @@ Zum Beispiel wäre für die Audigy 2 ZS &apos;&lt;i&gt;Mic L&lt;/i&gt;&apos; ein
     </message>
     <message>
         <source>Access to the microphone was denied. Please check that your operating system&apos;s microphone settings allow Mumble to use the microphone.</source>
-        <translation type="unfinished">Der Zugang zum Mikrofon wurde verweigert. Bitte überprüfen Sie, ob die Mikrofoneinstellungen Ihres Betriebssystems es Mumble ermöglichen, das Mikrofon zu verwenden.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Disabled</source>
-        <translation type="unfinished">Deaktiviert</translation>
+        <translation>Deaktiviert</translation>
     </message>
     <message>
         <source>Disable echo cancellation.</source>
@@ -2793,7 +2793,7 @@ Man benötigt Verbindungsrechte in beiden Kanälen um eine Verbindung aufzubauen
     </message>
     <message>
         <source>This server does not allow sending images.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dieser Server erlaubt nicht die Sendung von Bildern.</translation>
     </message>
 </context>
 <context>
@@ -2913,8 +2913,60 @@ Man benötigt Verbindungsrechte in beiden Kanälen um eine Verbindung aufzubauen
         <translation>Benutzername eingeben</translation>
     </message>
     <message>
+        <source>Adding host %1</source>
+        <translation>Host %1 hinzufügen</translation>
+    </message>
+    <message>
         <source>Servername</source>
         <translation>Servername</translation>
+    </message>
+    <message>
+        <source>Hostname</source>
+        <translation>Hostname</translation>
+    </message>
+    <message>
+        <source>Bonjour name</source>
+        <translation>Bonjourname</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <source>Addresses</source>
+        <translation>Adressen</translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation>Webseite</translation>
+    </message>
+    <message>
+        <source>Packet loss</source>
+        <translation>Paketverlust</translation>
+    </message>
+    <message>
+        <source>Ping (80%)</source>
+        <translation>Ping (80%)</translation>
+    </message>
+    <message>
+        <source>%1 ms</source>
+        <translation>%1 ms</translation>
+    </message>
+    <message>
+        <source>Ping (95%)</source>
+        <translation>Ping (95%)</translation>
+    </message>
+    <message>
+        <source>Bandwidth</source>
+        <translation>Bandbreite</translation>
+    </message>
+    <message>
+        <source>%1 kbit/s</source>
+        <translation>%1 kbit/s</translation>
+    </message>
+    <message>
+        <source>&amp;Connect</source>
+        <translation>&amp;Verbinden</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -2923,6 +2975,10 @@ Man benötigt Verbindungsrechte in beiden Kanälen um eine Verbindung aufzubauen
     <message>
         <source>Users</source>
         <translation>Benutzer</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Version</translation>
     </message>
     <message>
         <source>Failed to fetch server list</source>
@@ -3039,10 +3095,6 @@ Man benötigt Verbindungsrechte in beiden Kanälen um eine Verbindung aufzubauen
     <message>
         <source>&lt;p&gt;To measure the latency (ping) of public servers and determine the number of active users, your IP address must be transmitted to each public server.&lt;/p&gt;&lt;p&gt;Do you consent to the transmission of your IP address? If you answer no, the public server list will be deactivated. However, you can reactivate it at any time in the network settings.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Um die Latenz (den Ping) und die Benutzeranzahl eines Servers zu bestimmen, muss Ihre IP-Adresse an den jeweiligen Server übermittelt werden.&lt;/p&gt;&lt;p&gt;Stimen Sie der Übertragung ihrer IP-Adresse zu? Wenn Sie mit Nein antworten, wird die Liste öffentlicher Server deaktiviert. Es ist jedoch möglich diese jederzeit über die Netzwerk-Einstellungen wieder zu aktivieren.&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <source>C&amp;onnect</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3393,7 +3445,7 @@ Ohne diese Option funktioniert die Verwendung der globalen Tastaturkürzel von M
     </message>
     <message>
         <source>Add</source>
-        <translation type="unfinished">Hinzufügen</translation>
+        <translation>Hinzufügen</translation>
     </message>
     <message>
         <source>Remove the currently selected items</source>
@@ -3401,7 +3453,7 @@ Ohne diese Option funktioniert die Verwendung der globalen Tastaturkürzel von M
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished">Entfernen</translation>
+        <translation>Löschen</translation>
     </message>
 </context>
 <context>
@@ -3436,18 +3488,18 @@ Ohne diese Option funktioniert die Verwendung der globalen Tastaturkürzel von M
     <name>GlobalShortcutEngine</name>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">Unbekannt</translation>
+        <translation>Unbekannt</translation>
     </message>
 </context>
 <context>
     <name>GlobalShortcutMac</name>
     <message>
         <source>Mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>Mouse</translation>
     </message>
     <message>
         <source>Keyboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Tastatur</translation>
     </message>
 </context>
 <context>
@@ -3533,22 +3585,22 @@ Ohne diese Option funktioniert die Verwendung der globalen Tastaturkürzel von M
     <name>GlobalShortcutWin</name>
     <message>
         <source>Mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>Mouse</translation>
     </message>
     <message>
         <source>Keyboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Tastatur</translation>
     </message>
 </context>
 <context>
     <name>GlobalShortcutX</name>
     <message>
         <source>Keyboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Tastatur</translation>
     </message>
     <message>
         <source>Mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>Mouse</translation>
     </message>
 </context>
 <context>
@@ -7315,7 +7367,7 @@ Infos hierzu finden Sie im &lt;a href=&quot;https://wiki.mumble.info/wiki/Instal
     </message>
     <message>
         <source>Default Device</source>
-        <translation type="unfinished">Standardgerät</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>This option works best when using built-in microphone and speaker.</source>
@@ -7335,7 +7387,7 @@ Infos hierzu finden Sie im &lt;a href=&quot;https://wiki.mumble.info/wiki/Instal
     </message>
     <message>
         <source>Disabled</source>
-        <translation type="unfinished">Deaktiviert</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Echo cancellation is disabled.</source>
@@ -7359,74 +7411,6 @@ Infos hierzu finden Sie im &lt;a href=&quot;https://wiki.mumble.info/wiki/Instal
     </message>
     <message>
         <source>Acoustic echo cancellation provided by Apple.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Adding host %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enter username</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Servername</source>
-        <translation type="unfinished">Servername</translation>
-    </message>
-    <message>
-        <source>Hostname</source>
-        <translation type="unfinished">Hostname</translation>
-    </message>
-    <message>
-        <source>Bonjour name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Port</source>
-        <translation type="unfinished">Port</translation>
-    </message>
-    <message>
-        <source>Addresses</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Website</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Packet loss</source>
-        <translation type="unfinished">Paketverlust</translation>
-    </message>
-    <message>
-        <source>Ping (80%)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>%1 ms</source>
-        <translation type="unfinished">%1 ms</translation>
-    </message>
-    <message>
-        <source>Ping (95%)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Bandwidth</source>
-        <translation type="unfinished">Bandbreite</translation>
-    </message>
-    <message>
-        <source>%1 kbit/s</source>
-        <translation type="unfinished">%1 kbit/s</translation>
-    </message>
-    <message>
-        <source>Users</source>
-        <translation type="unfinished">Benutzer</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation type="unfinished">Version</translation>
-    </message>
-    <message>
-        <source>The provided URL uses an invalid version format: &quot;%1&quot;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
